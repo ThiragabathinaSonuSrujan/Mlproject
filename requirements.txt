@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 pandas
 numpy
 seaborn
@@ -8,3 +9,9 @@ xgboost
 Flask
 
 #-e .
+=======
+numpy
+pandas
+seaborn
+-e .
+>>>>>>> 2e589df33a4b537fefcacc63d960185f6e7afcc5
