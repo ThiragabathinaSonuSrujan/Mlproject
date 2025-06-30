@@ -53,6 +53,11 @@ jobs:
         with:
           name: python-app
           path: .
+
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{ serets.AZURE_CREDENTIALS }}
           
       - name: 'Deploy to Azure Web App'
         uses: azure/webapps-deploy@v2
